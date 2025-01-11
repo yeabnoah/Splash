@@ -12,7 +12,7 @@ export default function Page() {
   return (
     <View
       className={`flex min-h-screen justify-center flex-row items-center`}
-      style={{ fontFamily: "spaceGrotesk" }}
+      // style={{ fontFamily: "spaceGrotesk" }}
     >
       <StatusBar backgroundColor={"transparent"} barStyle="dark-content" />
       <Card

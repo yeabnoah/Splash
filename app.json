@@ -9,11 +9,18 @@
     },
     "plugins": [
       [
+        "expo-font",
+        {
+          "fonts": ["./src/font/SpaceGrotesk-VariableFont_wght.ttf"]
+        }
+      ],
+      [
         "expo-router",
         {
           "origin": "https://n"
         }
-      ]
+      ],
+      "expo-font"
     ],
     "name": "splash",
     "slug": "splash"
